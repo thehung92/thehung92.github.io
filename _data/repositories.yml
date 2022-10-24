@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - thehung92
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - thehung92/gene-region-visualize
+  - thehung92/shareUtils
+  - thehung92/thehung92.github.io
+  - thehung92/miscRpackage
