@@ -24,6 +24,7 @@ bundle exec jekyll serve
 touch favicon.ico
 # commit before deploy
 git add . && git commit -m 'save change in cv'
+bundle exec jekyll serve
 bin/deploy -s source -d gh-pages
 ```
 
