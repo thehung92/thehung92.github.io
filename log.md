@@ -23,7 +23,7 @@ bundle exec jekyll serve
 # add a favicon.ico # this seem to be the way of webrick
 touch favicon.ico
 # commit before local test
-git add . && git commit -m 'save change in cv'
+git add . && git commit -m 'save change in about pages'
 bundle exec jekyll serve
 # commit before deploy
 git add . && git commit -m 'save change in cv'
