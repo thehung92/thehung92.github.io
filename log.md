@@ -26,7 +26,7 @@ touch favicon.ico
 git add . && git commit -m 'save change in about pages'
 bundle exec jekyll serve
 # commit before deploy
-git add . && git commit -am 'add discussion section'
+git add . && git commit -am 'add discussion section to work with front matter'
 bin/deploy -s source -d gh-pages
 ```
 
