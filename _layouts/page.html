@@ -13,4 +13,10 @@ layout: default
             {{ content }}
           </article>
 
+          {%- if site.disqus_shortname -%}
+            {% include disqus_comment.html %}
+          {%- endif %}
+
         </div>
+
+<!-- comment section -->

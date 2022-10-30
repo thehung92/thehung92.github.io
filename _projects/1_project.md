@@ -49,6 +49,7 @@ devtools::install_github("thehung92/treemixTools")
 
 ***
 
+<!--
 <div id="disqus_thread"></div>
 <script type="text/javascript">
       var disqus_shortname  = '{{ site.disqus_shortname }}';
@@ -61,3 +62,4 @@ devtools::install_github("thehung92/treemixTools")
       })();
     </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->

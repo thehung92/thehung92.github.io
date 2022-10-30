@@ -5,6 +5,7 @@ description: a project without thumbnail, without category
 img: 
 importance: 2
 category: fun
+comments: true
 ---
 
 ***
@@ -23,12 +24,19 @@ This is the safe way
 
 > - select the block of code inside the liquid tags
 
+However, try going the standard route is better
+
+> - edit the html layout and copy the universal code provided by disqus
+> - right now the code do not work for this project. There is comment in the 1st project loaded for the new disqus shortname only
+> - use code provided my al-folio make it work. The difference lie in the disqus_shortname and identifier.
+
 ## try making icon appear with link to specific site
 
 > - find the liquid code in the about layout
 > - `_pages/about.md` state that social tags is true, investigate `_layouts/about.html`
 > - `_includes/social.html` seem like the place that print the social icon code
-> - print github icon with link inside the social class html to make it appear in the center 
+> - print github icon with link inside the social class html to make it appear in the center
+> - can link the github icon appearance to front matter to automate the process
 
 ***
 
@@ -41,6 +49,7 @@ This is the safe way
 
 ***
 
+<!-- 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
       var disqus_shortname  = '{{ site.disqus_shortname }}';
@@ -53,3 +62,4 @@ This is the safe way
       })();
     </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
